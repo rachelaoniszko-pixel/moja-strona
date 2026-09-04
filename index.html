@@ -2,10 +2,108 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Strona z znakiem UTF-8 &#127051;</title>
+    <title>Moja Profesjonalna Strona</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f2f5;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4a6cf7, #6a9afc);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            animation: fadeIn 1.5s ease;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+            animation: fadeIn 2s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #4a6cf7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #e6e9ef;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        .emoji {
+            font-size: 40px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Moja strona internetowa</h1>
-    <p>Wymagany znak UTF-8: &#127051;</p>
+
+<header>
+    <h1>Moja Profesjonalna Strona</h1>
+    <p>Stworzona na GitHub Pages — znak UTF‑8: <span class="emoji">&#127051;</span></p>
+</header>
+
+<div class="section">
+    <h2>O mnie</h2>
+    <p>
+        Cześć! To jest moja bardziej profesjonalna wersja strony internetowej.
+        Zawiera animacje, nowoczesny wygląd, responsywny układ i czytelne sekcje.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Co potrafi ta strona?</h2>
+    <ul>
+        <li>Nowoczesny design</li>
+        <li>Responsywność na telefonie</li>
+        <li>Animacje i gradienty</li>
+        <li>Profesjonalny układ sekcji</li>
+        <li>Znak UTF‑8: <strong>&#127051;</strong></li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Kontakt</h2>
+    <p>
+        Jeśli chcesz, mogę dodać formularz kontaktowy, galerię zdjęć,
+        przyciski, ikonki albo całe portfolio.
+    </p>
+</div>
+
+<footer>
+    © 2026 — Profesjonalna strona z UTF‑8 &#127051;
+</footer>
+
 </body>
 </html>
+
